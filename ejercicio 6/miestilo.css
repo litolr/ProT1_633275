@@ -9,8 +9,9 @@ body {
 
 /* Estilos para los encabezados */
 h1 {
-    color: rgb(255, 196, 0); /* Color amarillo */
+    color: rgb(200, 150, 0); /* Color amarillo más oscuro para mejor contraste */
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para mejorar visibilidad */
 }
 
 /* Estilos para los párrafos */
@@ -29,8 +30,8 @@ p {
 
 /* Estilos para el header */
 header {
-    background-color: #0671ebb0; /* Color de fondo */
-    color: #864a4a; /* Color del texto */
+    background-color: #0671eb; /* Color de fondo ajustado */
+    color: #fff; /* Color del texto cambiado a blanco para mejor contraste */
     text-align: center;
     padding: 20px;
 }
@@ -48,8 +49,17 @@ footer {
 }
 
 .footer-content {
+    text-align: center; /* Alineación del texto a la derecha */
+    font-size: 14px; /* Tamaño de fuente */
+    width: 100%;
     max-width: 800px; /* Ancho del contenido del footer */
     margin: 0 auto; /* Centrado */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    gap: 17px; /* Espacio entre iconos corregido */
 }
 
 /* Estilos para el nav */
